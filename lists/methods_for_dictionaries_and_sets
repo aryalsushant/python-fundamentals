@@ -1,0 +1,22 @@
+# Dictionary Methods
+
+my_dict.keys()           # returns all keys in my_dict (no guaranteed order)
+
+your_dict.values()       # returns all values in your_dict
+
+my_dict.items()          # returns all key-value pairs as (key, value) tuples
+
+your_dict.get(k, 0)      # returns value for key k if it exists, otherwise returns 0
+
+my_dict.pop(k)           # removes key k and returns its value from my_dict
+
+this_dict.update(other_dict)  # adds or replaces key-value pairs in this_dict with those from other_dict
+
+
+# Set Methods
+
+my_set.union(your_set)           # returns a new set with all elements from both sets
+
+my_set.intersection(your_set)    # returns a new set with elements common to both sets
+
+my_set.difference(your_set)      # returns a new set with elements in my_set but not in your_set
