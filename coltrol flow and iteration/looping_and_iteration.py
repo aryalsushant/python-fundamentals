@@ -24,3 +24,9 @@ while True:
     # do something forever
     pass
 
+while True:
+    # do something
+    if condition:
+        break
+
+
