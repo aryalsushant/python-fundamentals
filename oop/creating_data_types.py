@@ -1,9 +1,10 @@
 class Pizza:
-    def _init_(self, size, toppings=None):
+    def __init__(self, size, toppings=None):
         #building a pizza of specified size and toppings
         self.size = size
+        #self.size means the pizza object's size
         self.toppings = set()
-        if toppings is not none:
+        if toppings is not None:
             for topping in toppings:
                 self.toppings.add(topping)
 
